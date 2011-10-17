@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>CSSScroll</title>
+	<link rel="stylesheet" href="normalize.css" />
+		
+	<style type="text/css" media="screen">
+	  body {
+	    -webkit-user-select: none;
+	    background: #000;
+	  }
+	  
+	  #container {
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    overflow: hidden;
+	  }
+	
+	  #content {
+	    position: absolute;
+	    width: 2400px;
+	    height: 960px;
+	  }
+	
+    .block {
+      background: -webkit-linear-gradient(-45deg, #e5b8f9 0%,#9752a5 50%,#4f1751 100%);
+      width: 120px;
+      height: 120px;
+      float: left;
+    }
+	</style>
+
+</head>
+<body>
+  <div id="container">
+    <div id="content"></div>
+  </div>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
